@@ -2,40 +2,40 @@ export default function Organisers() {
   const organisers = [
     {
       id: 1,
-      name: 'Dr. S. Salivahanan',
+      name: 'Dr. S. Radha',
       designation: 'Principal, SSN College of Engineering',
       photo: '/images/organisers/principal.jpg', // Placeholder path
     },
     {
       id: 2,
-      name: 'Dr. T. T. Mirnalinee',
-      designation: 'Dean - Research & Consultancy',
+      name: 'Dr. A. Shahina',
+      designation: 'Head, Department of Information Technology',
       photo: '/images/organisers/dean-research.jpg',
     },
     {
       id: 3,
-      name: 'Dr. K. Venkataramanan',
-      designation: 'Head, Department of Computer Science',
+      name: 'Dr. I. Joe Louis Paul',
+      designation: 'Associate Professor, Department of Information Technology',
       photo: '/images/organisers/hod-cse.jpg',
     },
-    {
-      id: 4,
-      name: 'Dr. B. Bharathi',
-      designation: 'Professor & Event Coordinator',
-      photo: '/images/organisers/coordinator.jpg',
-    },
-    {
-      id: 5,
-      name: 'Dr. S. Hariharan',
-      designation: 'Associate Professor, AI & ML',
-      photo: '/images/organisers/faculty1.jpg',
-    },
-    {
-      id: 6,
-      name: 'Dr. M. Vijayalakshmi',
-      designation: 'Associate Professor, Research Head',
-      photo: '/images/organisers/faculty2.jpg',
-    },
+    // {
+    //   id: 4,
+    //   name: 'Dr. B. Bharathi',
+    //   designation: 'Professor & Event Coordinator',
+    //   photo: '/images/organisers/coordinator.jpg',
+    // },
+    // {
+    //   id: 5,
+    //   name: 'Dr. S. Hariharan',
+    //   designation: 'Associate Professor, AI & ML',
+    //   photo: '/images/organisers/faculty1.jpg',
+    // },
+    // {
+    //   id: 6,
+    //   name: 'Dr. M. Vijayalakshmi',
+    //   designation: 'Associate Professor, Research Head',
+    //   photo: '/images/organisers/faculty2.jpg',
+    // },
   ]
 
   return (

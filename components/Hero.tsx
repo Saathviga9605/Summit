@@ -1,16 +1,16 @@
+import HeroBackground from './HeroBackground';
+
 export default function Hero() {
+  // Toggle to enable/disable animated background
+  const enableAnimatedBackground = true;
+
   return (
     <section 
       id="home" 
-      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white pt-16"
+      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white pt-16 overflow-hidden"
     >
-      {/* Background pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 2px 2px, white 1px, transparent 0)`,
-          backgroundSize: '40px 40px'
-        }}></div>
-      </div>
+      {/* AI-themed animated background component */}
+      <HeroBackground enabled={enableAnimatedBackground} />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Logo Area */}
