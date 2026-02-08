@@ -6,14 +6,13 @@ export default function Footer() {
           {/* About Section */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="text-3xl font-bold">SSN</div>
+              <div className="text-3xl font-bold bg-gradient-to-r from-sky-300 to-cyan-300 bg-clip-text text-transparent">AIAH</div>
               <div className="text-sm">
-                <div className="font-semibold">AI SUMMIT</div>
                 <div className="text-xs text-sky-300">2026</div>
               </div>
             </div>
             <p className="text-sky-100 mb-4">
-              Advancing AI for societal impact and innovation
+              AI for Advancing Humanity
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-sky-300 hover:text-white transition-colors">

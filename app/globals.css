@@ -85,6 +85,32 @@ html {
   }
 }
 
+@keyframes data-stream {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
 .animate-float {
   animation: float 15s ease-in-out infinite;
 }
@@ -105,13 +131,24 @@ html {
   animation: pulse-slow 6s ease-in-out infinite;
 }
 
+.animate-data-stream {
+  animation: data-stream 15s linear infinite;
+}
+
+.animate-gradient {
+  background-size: 200% auto;
+  animation: gradient 8s ease infinite;
+}
+
 /* Respect user motion preferences for accessibility */
 @media (prefers-reduced-motion: reduce) {
   .animate-float,
   .animate-float-slow,
   .animate-wave,
   .animate-wave-delayed,
-  .animate-pulse-slow {
+  .animate-pulse-slow,
+  .animate-data-stream,
+  .animate-gradient {
     animation: none !important;
   }
 }

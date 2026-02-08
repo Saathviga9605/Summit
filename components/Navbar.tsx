@@ -20,10 +20,9 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-3">
-              <div className="text-2xl font-bold">SSN</div>
-              <div className="text-sm">
-                <div className="font-semibold">AI SUMMIT</div>
-                <div className="text-xs text-sky-200">2026</div>
+              <div className="relative">
+                <div className="text-2xl font-bold bg-gradient-to-r from-sky-300 to-cyan-300 bg-clip-text text-transparent">AIAH</div>
+                <div className="text-xs text-sky-200 text-center">2026</div>
               </div>
             </Link>
           </div>

@@ -11,8 +11,8 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: 'SSN AI Summit 2026',
-  description: 'Advancing AI for societal impact and innovation - March 25-28, 2026',
+  title: 'AIAH 2026 - AI for Advancing Humanity',
+  description: 'International AI Summit - Advancing AI for societal impact and innovation - March 25-28, 2026',
 }
 
 export default function RootLayout({

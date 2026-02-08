@@ -1,11 +1,11 @@
 export default function Organisers() {
   const organisers = [
-    {
-      id: 1,
-      name: 'Dr. S. Radha',
-      designation: 'Principal, SSN College of Engineering',
-      photo: '/images/organisers/principal.jpg', // Placeholder path
-    },
+    // {
+    //   id: 1,
+    //   name: 'Dr. S. Radha',
+    //   designation: 'Principal, SSN College of Engineering',
+    //   photo: '/images/organisers/principal.jpg', // Placeholder path
+    // },
     {
       id: 2,
       name: 'Dr. A. Shahina',
@@ -17,6 +17,18 @@ export default function Organisers() {
       name: 'Dr. I. Joe Louis Paul',
       designation: 'Associate Professor, Department of Information Technology',
       photo: '/images/organisers/hod-cse.jpg',
+    },
+    {
+      id: 4,
+      name: 'Dr. S. Karthika',
+      designation: 'Associate Professor, Department of Information Technology',
+      photo: '/images/organisers/karthika.jpg',
+    },
+    {
+      id: 5,
+      name: 'Dr. Arige Sumanth',
+      designation: 'Assistant Professor, Department of Information Technology',
+      photo: '/images/organisers/sumanth.jpg',
     },
     // {
     //   id: 4,
@@ -47,7 +59,7 @@ export default function Organisers() {
           </h2>
           <div className="w-24 h-1 bg-sky-500 mx-auto"></div>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Meet the dedicated team behind SSN AI Summit 2026
+            Meet the dedicated team behind AIAH 2026
           </p>
         </div>
 
