@@ -10,7 +10,7 @@ export default function Organisers() {
       id: 2,
       name: 'Dr. A. Shahina',
       designation: 'Head, Department of Information Technology',
-      photo: '/images/hod.jpg',
+      photo: 'public\images\hod.jpg',
     },
     {
       id: 3,
