@@ -29,7 +29,7 @@ export default function Organisers() {
     //   name: 'Dr. S. Hariharan',
     //   designation: 'Associate Professor, AI & ML',
     //   photo: '/images/organisers/faculty1.jpg',
-    // },
+    // },n
     // {
     //   id: 6,
     //   name: 'Dr. M. Vijayalakshmi',
