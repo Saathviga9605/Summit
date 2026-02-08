@@ -24,7 +24,7 @@ const Organisers: FC<OrganisersSectionProps> = () => {
       id: 2,
       name: 'Dr. A. Shahina',
       designation: 'Head, Department of Information Technology',
-      photo: 'public/images/hod.jpg',
+      photo: '/images/hod.jpg',
     },
     {
       id: 3,
