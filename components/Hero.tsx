@@ -28,7 +28,7 @@ export default function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-sky-200 to-cyan-300 bg-clip-text text-transparent">
-          SSN AI Summit 2026
+          AI for Advancing Humanity
         </h1>
 
         <div className="text-2xl md:text-3xl mb-4 text-sky-100">
@@ -40,7 +40,7 @@ export default function Hero() {
         </div>
 
         <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto text-gray-100">
-          Advancing AI for societal impact and innovation
+          Engineering the future of Intelligence
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
