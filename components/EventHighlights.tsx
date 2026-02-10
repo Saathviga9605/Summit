@@ -269,26 +269,33 @@ export default function EventHighlights() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {highlights.map((highlight) => (
               <div
-                key={highlight.id}
-                id={highlight.id}
-                onClick={() => setSelectedEvent(highlight.id)}
-                className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 p-8 border-t-4 border-sky-500 cursor-pointer group"
-              >
-                <div className="text-sky-600 mb-4 flex justify-center group-hover:scale-110 transition-transform">
-                  {highlight.icon}
-                </div>
-                <h3 className="text-2xl font-bold text-slate-800 mb-3 text-center">
-                  {highlight.title}
-                </h3>
-                <p className="text-gray-600 text-center leading-relaxed mb-4">
-                  {highlight.description}
-                </p>
-                <div className="text-center">
-                  <span className="text-sky-600 text-sm font-semibold group-hover:underline">
-                    Click for more info →
-                  </span>
-                </div>
-              </div>
+  key={highlight.id}
+  id={highlight.id}
+  onClick={(e) => {
+    e.preventDefault();
+    if (highlight.id === 'project-expo') {
+      window.open('https://vivid-website-pi.vercel.app/', '_blank');
+    } else {
+      setSelectedEvent(highlight.id);
+    }
+  }}
+  className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 p-8 border-t-4 border-sky-500 cursor-pointer group"
+>
+  <div className="text-sky-600 mb-4 flex justify-center group-hover:scale-110 transition-transform">
+    {highlight.icon}
+  </div>
+  <h3 className="text-2xl font-bold text-slate-800 mb-3 text-center">
+    {highlight.title}
+  </h3>
+  <p className="text-gray-600 text-center leading-relaxed mb-4">
+    {highlight.description}
+  </p>
+  <div className="text-center">
+    <span className="text-sky-600 text-sm font-semibold group-hover:underline">
+      {highlight.id === 'project-expo' ? 'Visit Project Expo →' : 'Click for more info →'}
+    </span>
+  </div>
+</div>
             ))}
           </div>
 
