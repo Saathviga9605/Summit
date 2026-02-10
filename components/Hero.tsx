@@ -140,23 +140,13 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-400 rounded-full blur opacity-0 group-hover:opacity-50 transition-opacity"></div>
           </a>
           
-          <a
-            href="#event-highlights"
-            className="group relative bg-transparent border-2 border-sky-400 hover:border-cyan-400 hover:bg-sky-500/10 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all backdrop-blur-sm"
-          >
-            <span className="flex items-center justify-center space-x-2">
-              <span>Learn More</span>
-              <svg className="w-5 h-5 group-hover:rotate-90 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-              </svg>
-            </span>
-          </a>
+        
           
           <a
             href="/brochure.pdf" // Replace with actual brochure URL
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-purple-500/50 hover:shadow-xl hover:shadow-purple-500/60"
+            className="group relative bg-gradient-to-r from-sky-500 to-cyan-500 hover:from-purple-600 hover:to-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-purple-500/50 hover:shadow-xl hover:shadow-purple-500/60"
           >
             <span className="relative z-10 flex items-center justify-center space-x-2">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
