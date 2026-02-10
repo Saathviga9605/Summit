@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
+import FlashNews from '@/components/FlashNews'
 import Footer from '@/components/Footer'
 
 const montserrat = Montserrat({ 
@@ -24,6 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={montserrat.className}>
         <Navbar />
+        <FlashNews />
         {children}
         <Footer />
       </body>

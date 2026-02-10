@@ -140,6 +140,20 @@ html {
   animation: gradient 8s ease infinite;
 }
 
+/* Flash News Scrolling Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
 /* Respect user motion preferences for accessibility */
 @media (prefers-reduced-motion: reduce) {
   .animate-float,
@@ -148,7 +162,8 @@ html {
   .animate-wave-delayed,
   .animate-pulse-slow,
   .animate-data-stream,
-  .animate-gradient {
+  .animate-gradient,
+  .animate-scroll {
     animation: none !important;
   }
 }

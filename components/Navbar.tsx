@@ -10,7 +10,7 @@ export default function Navbar() {
   const eventHighlights = [
     { name: 'Hackathon', href: '#hackathon' },
     { name: 'Project Expo', href: 'https://vivid-website-pi.vercel.app/' },
-    { name: 'Keynote Talks', href: '#speakers' },
+    { name: 'Eminent Speakers', href: '#speakers' },
     { name: 'Workshops', href: '#workshops' },
   ]
 

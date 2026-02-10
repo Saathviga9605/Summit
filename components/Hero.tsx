@@ -87,7 +87,7 @@ export default function Hero() {
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-sky-500/20 to-transparent h-px"></div>
           <p className="text-xl md:text-2xl py-6 max-w-3xl mx-auto text-gray-100 font-light relative">
             <span className="inline-block bg-gradient-to-r from-cyan-200 to-sky-200 bg-clip-text text-transparent font-medium">
-              Engineering the future of Intelligence
+              Engineering the Future of Intelligence
             </span>
           </p>
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-sky-500/20 to-transparent h-px bottom-0"></div>
@@ -138,9 +138,8 @@ export default function Hero() {
           </a>
           
           <a
-            href="/brochure.pdf" // Replace with actual brochure URL
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/AI_summit.pdf"
+            download="AI_Summit_Brochure.pdf"
             className="group relative bg-gradient-to-r from-sky-500 to-cyan-500 hover:from-sky-600 hover:to-cyan-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-sky-500/50 hover:shadow-xl hover:shadow-sky-500/60"
           >
             <span className="relative z-10 flex items-center justify-center space-x-2">

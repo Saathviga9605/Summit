@@ -29,7 +29,7 @@ export default function EventHighlights() {
     },
     {
       id: 'speakers',
-      title: 'Keynote Talks',
+      title: 'Eminent Speakers',
       description: 'Leading AI experts from India',
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -181,29 +181,33 @@ export default function EventHighlights() {
                   <svg className="w-6 h-6 mr-2 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  Technical Workshops
+                  College Students Workshops
                 </h3>
                 <p className="text-gray-700 mb-4">Advanced workshops for college students and professionals</p>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-sky-600 mr-2">•</span>
-                    <span>Deep Learning with PyTorch & TensorFlow</span>
+                    <span><strong>Workshop 1: Quantum Computing</strong></span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-sky-600 mr-2">•</span>
-                    <span>Natural Language Processing applications</span>
+                    <span>Explore quantum computing principles and applications</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-sky-600 mr-2">•</span>
-                    <span>Computer Vision and Image Recognition</span>
+                    <span><strong>Workshop 2: AI Walkthrough</strong></span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-sky-600 mr-2">•</span>
-                    <span>MLOps and Model Deployment</span>
+                    <span>Comprehensive guide to AI technologies and implementations</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-sky-600 mr-2">•</span>
-                    <span>Reinforcement Learning basics</span>
+                    <span>Hands-on experience with modern AI frameworks</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-sky-600 mr-2">•</span>
+                    <span>Certificates of completion included for both workshops</span>
                   </li>
                 </ul>
               </div>
@@ -213,36 +217,47 @@ export default function EventHighlights() {
                   <svg className="w-6 h-6 mr-2 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
-                  Workshop for School Students
+                  School Students Workshop
                 </h3>
-                <p className="text-gray-700 mb-4">Specially designed for Vidyagyan school students</p>
+                <p className="text-gray-700 mb-4">Specially designed for school students</p>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-indigo-600 mr-2">•</span>
-                    <span>Introduction to Artificial Intelligence</span>
+                    <span><strong>Introduction to AR/VR</strong></span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-indigo-600 mr-2">•</span>
-                    <span>Fun with Machine Learning basics</span>
+                    <span>Discover the exciting world of Augmented and Virtual Reality</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-indigo-600 mr-2">•</span>
-                    <span>Building simple AI projects with Scratch</span>
+                    <span>Experience immersive AR/VR demonstrations</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-indigo-600 mr-2">•</span>
-                    <span>AI in everyday life - interactive sessions</span>
+                    <span>Create your own simple AR/VR projects</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-indigo-600 mr-2">•</span>
-                    <span>Career pathways in AI and technology</span>
+                    <span>Certificate of participation included</span>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="bg-slate-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-slate-800 mb-3">Workshop Schedule</h3>
+              <div className="grid md:grid-cols-2 gap-4 mb-4">
+                <div className="flex items-start">
+                  <span className="text-sky-600 font-bold mr-2">Day 1:</span>
+                  <span className="text-gray-700">One workshop session</span>
+                </div>
+                <div className="flex items-start">
+                  <span className="text-sky-600 font-bold mr-2">Day 2:</span>
+                  <span className="text-gray-700">Two workshop sessions</span>
+                </div>
+              </div>
               <p className="text-gray-700">
-                <strong>Note:</strong> All workshops include hands-on coding sessions, take-home materials, and certificates of completion.
+                <strong>Note:</strong> All workshops include hands-on sessions, take-home materials, and certificates of completion.
               </p>
             </div>
           </div>
