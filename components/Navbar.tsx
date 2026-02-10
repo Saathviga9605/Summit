@@ -9,7 +9,7 @@ export default function Navbar() {
 
   const eventHighlights = [
     { name: 'Hackathon', href: '#hackathon' },
-    { name: 'Project Expo', href: '#project-expo' },
+    { name: 'Project Expo', href: 'https://vivid-website-pi.vercel.app/' },
     { name: 'Keynote Talks', href: '#speakers' },
     { name: 'Workshops', href: '#workshops' },
   ]
@@ -66,9 +66,7 @@ export default function Navbar() {
               )}
             </div>
 
-            <Link href="#research" className="hover:text-blue-300 transition-colors">
-              Research Symposium
-            </Link>
+           
             <Link href="#contact" className="hover:text-blue-300 transition-colors">
               Contact
             </Link>
