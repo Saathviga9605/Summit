@@ -151,7 +151,21 @@ html {
 }
 
 .animate-scroll {
-  animation: scroll 30s linear infinite;
+  animation: scroll 15s linear infinite;
+}
+
+/* Flash News Blinking Animation */
+@keyframes flash {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.animate-flash {
+  animation: flash 1.5s ease-in-out infinite;
 }
 
 /* Respect user motion preferences for accessibility */
@@ -163,6 +177,7 @@ html {
   .animate-pulse-slow,
   .animate-data-stream,
   .animate-gradient,
+  .animate-flash,
   .animate-scroll {
     animation: none !important;
   }

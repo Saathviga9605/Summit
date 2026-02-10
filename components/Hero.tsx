@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section 
       id="home" 
-      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white pt-24 pb-12 overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white pt-32 pb-12 overflow-hidden"
     >
       {/* AI-themed animated background component */}
       <HeroBackground enabled={enableAnimatedBackground} />
