@@ -83,7 +83,6 @@ export default function Hero() {
           AI for Advancing Humanity
         </h1>
 
-
         <div className="relative mb-12">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-sky-500/20 to-transparent h-px"></div>
           <p className="text-xl md:text-2xl py-6 max-w-3xl mx-auto text-gray-100 font-light relative">
@@ -94,33 +93,31 @@ export default function Hero() {
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-sky-500/20 to-transparent h-px bottom-0"></div>
         </div>
 
-
-        {/* Decorative AI Symbol */}
-        {/* <div className="flex justify-center mb-8">
-          <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-500 blur-xl opacity-30 animate-pulse-slow"></div>
-            <svg className="relative w-16 h-16 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-          </div>
-        </div> */}
-
-        <div className="text-2xl md:text-3xl mb-6 text-sky-100 font-light">
+        <div className="text-xl md:text-2xl mb-4 text-sky-200 font-light">
           <span className="inline-flex items-center space-x-2">
             <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
             </svg>
-            <span>March 25 - 28, 2026</span>
+            <span>Department of Information Technology</span>
           </span>
         </div>
 
-        <div className="text-xl md:text-2xl mb-12 text-sky-200 font-light">
+        <div className="text-xl md:text-2xl mb-4 text-sky-200 font-light">
           <span className="inline-flex items-center space-x-2">
             <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
             </svg>
             <span>SSN College of Engineering, Chennai</span>
+          </span>
+        </div>
+
+        <div className="text-2xl md:text-3xl mb-12 text-sky-100 font-light">
+          <span className="inline-flex items-center space-x-2">
+            <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <span>March 25 - 28, 2026</span>
           </span>
         </div>
 
@@ -140,13 +137,11 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-400 rounded-full blur opacity-0 group-hover:opacity-50 transition-opacity"></div>
           </a>
           
-        
-          
           <a
             href="/brochure.pdf" // Replace with actual brochure URL
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative bg-gradient-to-r from-sky-500 to-cyan-500 hover:from-purple-600 hover:to-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-purple-500/50 hover:shadow-xl hover:shadow-purple-500/60"
+            className="group relative bg-gradient-to-r from-sky-500 to-cyan-500 hover:from-sky-600 hover:to-cyan-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-sky-500/50 hover:shadow-xl hover:shadow-sky-500/60"
           >
             <span className="relative z-10 flex items-center justify-center space-x-2">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -154,7 +149,7 @@ export default function Hero() {
               </svg>
               <span>Download Brochure</span>
             </span>
-            <div className="absolute inset-0 bg-gradient-to-r from-indigo-400 to-purple-400 rounded-full blur opacity-0 group-hover:opacity-50 transition-opacity"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-400 rounded-full blur opacity-0 group-hover:opacity-50 transition-opacity"></div>
           </a>
         </div>
       </div>
