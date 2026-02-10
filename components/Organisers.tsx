@@ -77,27 +77,27 @@ const Organisers: FC<OrganisersSectionProps> = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
           {organisers.map((organiser) => (
             <div
               key={organiser.id}
-              className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden group"
+              className="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden group"
             >
               {/* Photo Container */}
-              <div className="relative h-64 bg-gradient-to-br from-slate-200 to-slate-300 overflow-hidden">
+              <div className="relative h-48 bg-gradient-to-br from-slate-200 to-slate-300 overflow-hidden">
                 {organiser.photo ? (
                   <Image
                     src={organiser.photo}
                     alt={organiser.name}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                     priority={organiser.id <= 3} // Prioritize loading first few images
                   />
                 ) : (
                   <div className="absolute inset-0 flex items-center justify-center">
                     <svg
-                      className="w-32 h-32 text-slate-400 group-hover:scale-110 transition-transform duration-300"
+                      className="w-20 h-20 text-slate-400 group-hover:scale-110 transition-transform duration-300"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >
@@ -108,11 +108,11 @@ const Organisers: FC<OrganisersSectionProps> = () => {
               </div>
 
               {/* Info Container */}
-              <div className="p-6 text-center">
-                <h3 className="text-xl font-bold text-slate-800 mb-2">
+              <div className="p-4 text-center">
+                <h3 className="text-lg font-bold text-slate-800 mb-1">
                   {organiser.name}
                 </h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-sm text-gray-600 leading-tight">
                   {organiser.designation}
                 </p>
               </div>
