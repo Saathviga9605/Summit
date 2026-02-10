@@ -8,7 +8,6 @@ export default function Home() {
     <main className="min-h-screen">
       <Hero />
       <EventHighlights />
-      <ResearchSymposium />
       <Organisers />
     </main>
   )
