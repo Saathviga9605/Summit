@@ -91,8 +91,7 @@ export default function Footer() {
     loading="lazy">
   </iframe>
 </div>
-
-          </div>
+         </div>
         </div>
 
       {/* Footer Links Section */}
