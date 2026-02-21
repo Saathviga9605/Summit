@@ -97,7 +97,7 @@ const StudentCoordinators: FC<StudentCoordinatorsProps> = () => {
           role: 'Deputy Head',
           department: 'Marketing and Logistics',
           year: 'Third Year',
-          photo: '/images/jayakanthan.jpg',
+          photo: '/images/jayakanthan.jpeg',
         },
       ],
     },
