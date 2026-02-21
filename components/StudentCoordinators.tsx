@@ -41,7 +41,7 @@ const StudentCoordinators: FC<StudentCoordinatorsProps> = () => {
           role: 'President',
           department: 'Department of Information Technology',
           year: 'Fourth Year',
-          photo: '/images/coordinators/coordinator1.jpg',
+          photo: '/images/kathir.jpg',
         },
         {
           id: 2,
@@ -49,7 +49,7 @@ const StudentCoordinators: FC<StudentCoordinatorsProps> = () => {
           role: 'Vice President',
           department: 'Department of Information Technology',
           year: 'Fourth Year',
-          photo: '/images/coordinators/coordinator2.jpg',
+          photo: '/images/ananya.jpg',
         },
         {
           id: 3,
@@ -57,7 +57,7 @@ const StudentCoordinators: FC<StudentCoordinatorsProps> = () => {
           role: 'Secretary',
           department: 'Department of Information Technology',
           year: 'Fourth Year',
-          photo: '/images/coordinators/coordinator2.jpg',
+          photo: '/images/nithish.jpg',
         },
         {
           id: 4,
@@ -65,7 +65,7 @@ const StudentCoordinators: FC<StudentCoordinatorsProps> = () => {
           role: 'Treasurer',
           department: 'Department of Information Technology',
           year: 'Fourth Year',
-          photo: '/images/coordinators/coordinator2.jpg',
+          photo: '/images/kavyasri.jpg',
         },
       ],
     },
