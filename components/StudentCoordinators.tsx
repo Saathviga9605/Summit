@@ -81,7 +81,7 @@ const StudentCoordinators: FC<StudentCoordinatorsProps> = () => {
           role: 'Deputy Head',
           department: 'Design',
           year: 'Third Year',
-          photo: '/images/coordinators/design1.jpg',
+          photo: '/images/harshikaa.jpg',
         },
         {
           id: 6,
@@ -89,7 +89,7 @@ const StudentCoordinators: FC<StudentCoordinatorsProps> = () => {
           role: 'Deputy Head',
           department: 'Design',
           year: 'Third Year',
-          photo: '/images/coordinators/design2.jpg',
+          photo: '/images/sanjana.jpg',
         },
         {
           id: 7,
@@ -97,7 +97,7 @@ const StudentCoordinators: FC<StudentCoordinatorsProps> = () => {
           role: 'Deputy Head',
           department: 'Marketing and Logistics',
           year: 'Third Year',
-          photo: '/images/coordinators/design2.jpg',
+          photo: '/images/jayakanthan.jpg',
         },
       ],
     },
